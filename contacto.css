@@ -628,8 +628,16 @@ form .div-button .button:hover{
         margin: 1rem 0px;
     }
 }
+@media (max-width: 500px){
+    .container-contact-form{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 @media (max-width: 903px){
-
     .section-location{
         width: 100%;
         height: auto;

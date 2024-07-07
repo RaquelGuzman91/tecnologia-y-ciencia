@@ -527,6 +527,11 @@ nav.sticky{
         height: 290px;
     }
 }
+@media (max-width: 539px){
+    .banner-visionymision-mediano {
+        min-height: 50vh;
+    }
+}
 @media (max-width: 571px){
     .cont-banner-mediano{
         width: 100%;

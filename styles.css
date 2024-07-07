@@ -613,6 +613,13 @@ nav.sticky{
         text-align: center;
     }
 }
+/*----------------------*/
+@media (max-width: 539px){
+    #banner-principal-inicio{
+        min-height: 50vh;
+    }
+}
+
 @media (max-width: 498px){
     .banner-articulo-inicio .titulo-inicio h2{
         color: white;
@@ -625,6 +632,7 @@ nav.sticky{
         color: #fff;
     }
 }
+
 @media (max-width: 419px){
     .banner-articulo-inicio .titulo-inicio h2{
         color: white;
@@ -896,7 +904,7 @@ nav.sticky{
 }
 
 
-/*---------------------------------------------------*/ 
+/*------------------------------------------*/ 
 
 @media (max-width: 655px){
     .slider-end{
